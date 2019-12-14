@@ -54,6 +54,7 @@ about:
     pipelines from simple, re-usable pieces. See <https://www.tensorflow.org/programmers_guide/datasets>
     for additional details.
   license_family: APACHE
+  license_file: LICENSE
 
 extra:
   recipe-maintainers:
