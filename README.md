@@ -7,7 +7,7 @@ Package license: Apache-2.0
 
 Feedstock license: BSD 3-Clause
 
-Summary: Interface to 'TensorFlow' Datasets, a high-level library for  building complex input pipelines from simple, re-usable pieces.  See <https://www.tensorflow.org/programmers_guide/datasets> for additional details.
+Summary: Interface to 'TensorFlow' Datasets, a high-level library for building complex input pipelines from simple, re-usable pieces. See <https://www.tensorflow.org/programmers_guide/datasets> for additional details.
 
 
 
