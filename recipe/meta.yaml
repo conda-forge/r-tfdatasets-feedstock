@@ -1,4 +1,4 @@
-{% set version = '2.0.0' %}
+{% set version = "2.2.0" %}
 {% set posix = 'm2-' if win else '' %}
 {% set native = 'm2w64-' if win else '' %}
 
@@ -10,11 +10,11 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/tfdatasets_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/tfdatasets/tfdatasets_{{ version }}.tar.gz
-  sha256: 59cfbd1a885734f936597ec45751481edd493666a47ab1627fe21b088fc282bb
+  sha256: 5acf53176090b8224af269ca5b69b462c50d42faa92bb8cd81e0461165730535
 
 build:
-  merge_build_host: True  # [win]
-  number: 1
+  merge_build_host: true  # [win]
+  number: 0
   noarch: generic
   rpaths:
     - lib/R/lib/
@@ -50,9 +50,7 @@ test:
 about:
   home: https://github.com/rstudio/tfdatasets
   license: Apache-2.0
-  summary: Interface to 'TensorFlow' Datasets, a high-level library for building complex input
-    pipelines from simple, re-usable pieces. See <https://www.tensorflow.org/programmers_guide/datasets>
-    for additional details.
+  summary: Interface to 'TensorFlow' Datasets, a high-level library for building complex input pipelines from simple, re-usable pieces. See <https://www.tensorflow.org/programmers_guide/datasets> for additional details.
   license_family: APACHE
   license_file: LICENSE
 
