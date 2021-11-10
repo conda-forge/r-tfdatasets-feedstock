@@ -1,4 +1,4 @@
-{% set version = "2.6.0" %}
+{% set version = "2.7.0" %}
 {% set posix = 'm2-' if win else '' %}
 {% set native = 'm2w64-' if win else '' %}
 
@@ -10,7 +10,7 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/tfdatasets_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/tfdatasets/tfdatasets_{{ version }}.tar.gz
-  sha256: 0b63680566afd3788e4b1394812e66335ed44f29606029a7315457b2f362521b
+  sha256: 965e897902a097ccf4388ab67ade41bb126de44b18289589219fd7c0ea08f0fb
 
 build:
   merge_build_host: true  # [win]
